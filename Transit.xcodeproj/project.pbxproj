@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260CA6C2196E26B9008635FB /* Transit.h in Headers */ = {isa = PBXBuildFile; fileRef = 260CA6C1196E26B9008635FB /* Transit.h */; };
+		260CA6C4196E26B9008635FB /* Transit.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CA6C3196E26B9008635FB /* Transit.m */; };
+		260CA6CA196E26B9008635FB /* libTransit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 260CA6BE196E26B9008635FB /* libTransit.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		260CA6CB196E26B9008635FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 260CA6B6196E26B9008635FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260CA6BD196E26B9008635FB;
+			remoteInfo = Transit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		260CA6BE196E26B9008635FB /* libTransit.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTransit.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		260CA6C1196E26B9008635FB /* Transit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transit.h; sourceTree = "<group>"; };
+		260CA6C3196E26B9008635FB /* Transit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transit.m; sourceTree = "<group>"; };
+		260CA6C9196E26B9008635FB /* TransitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		260CA6CF196E26B9008635FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		260CA6BB196E26B9008635FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260CA6C6196E26B9008635FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260CA6CA196E26B9008635FB /* libTransit.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260CA6B5196E26B9008635FB = {
+			isa = PBXGroup;
+			children = (
+				260CA6C0196E26B9008635FB /* Transit */,
+				260CA6CD196E26B9008635FB /* TransitTests */,
+				260CA6BF196E26B9008635FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		260CA6BF196E26B9008635FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				260CA6BE196E26B9008635FB /* libTransit.dylib */,
+				260CA6C9196E26B9008635FB /* TransitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		260CA6C0196E26B9008635FB /* Transit */ = {
+			isa = PBXGroup;
+			children = (
+				260CA6C1196E26B9008635FB /* Transit.h */,
+				260CA6C3196E26B9008635FB /* Transit.m */,
+			);
+			path = Transit;
+			sourceTree = "<group>";
+		};
+		260CA6CD196E26B9008635FB /* TransitTests */ = {
+			isa = PBXGroup;
+			children = (
+				260CA6CE196E26B9008635FB /* Supporting Files */,
+			);
+			path = TransitTests;
+			sourceTree = "<group>";
+		};
+		260CA6CE196E26B9008635FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				260CA6CF196E26B9008635FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		260CA6BC196E26B9008635FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260CA6C2196E26B9008635FB /* Transit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		260CA6BD196E26B9008635FB /* Transit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260CA6D2196E26B9008635FB /* Build configuration list for PBXNativeTarget "Transit" */;
+			buildPhases = (
+				260CA6BA196E26B9008635FB /* Sources */,
+				260CA6BB196E26B9008635FB /* Frameworks */,
+				260CA6BC196E26B9008635FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transit;
+			productName = Transit;
+			productReference = 260CA6BE196E26B9008635FB /* libTransit.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		260CA6C8196E26B9008635FB /* TransitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260CA6D5196E26B9008635FB /* Build configuration list for PBXNativeTarget "TransitTests" */;
+			buildPhases = (
+				260CA6C5196E26B9008635FB /* Sources */,
+				260CA6C6196E26B9008635FB /* Frameworks */,
+				260CA6C7196E26B9008635FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260CA6CC196E26B9008635FB /* PBXTargetDependency */,
+			);
+			name = TransitTests;
+			productName = TransitTests;
+			productReference = 260CA6C9196E26B9008635FB /* TransitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		260CA6B6196E26B9008635FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					260CA6BD196E26B9008635FB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					260CA6C8196E26B9008635FB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 260CA6BD196E26B9008635FB;
+					};
+				};
+			};
+			buildConfigurationList = 260CA6B9196E26B9008635FB /* Build configuration list for PBXProject "Transit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 260CA6B5196E26B9008635FB;
+			productRefGroup = 260CA6BF196E26B9008635FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				260CA6BD196E26B9008635FB /* Transit */,
+				260CA6C8196E26B9008635FB /* TransitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		260CA6C7196E26B9008635FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		260CA6BA196E26B9008635FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260CA6C4196E26B9008635FB /* Transit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260CA6C5196E26B9008635FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		260CA6CC196E26B9008635FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260CA6BD196E26B9008635FB /* Transit */;
+			targetProxy = 260CA6CB196E26B9008635FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		260CA6D0196E26B9008635FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		260CA6D1196E26B9008635FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		260CA6D3196E26B9008635FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		260CA6D4196E26B9008635FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		260CA6D6196E26B9008635FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TransitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		260CA6D7196E26B9008635FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TransitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		260CA6B9196E26B9008635FB /* Build configuration list for PBXProject "Transit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260CA6D0196E26B9008635FB /* Debug */,
+				260CA6D1196E26B9008635FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260CA6D2196E26B9008635FB /* Build configuration list for PBXNativeTarget "Transit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260CA6D3196E26B9008635FB /* Debug */,
+				260CA6D4196E26B9008635FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		260CA6D5196E26B9008635FB /* Build configuration list for PBXNativeTarget "TransitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260CA6D6196E26B9008635FB /* Debug */,
+				260CA6D7196E26B9008635FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260CA6B6196E26B9008635FB /* Project object */;
+}
