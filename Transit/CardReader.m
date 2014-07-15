@@ -24,10 +24,12 @@
 -(BOOL)card:(Card*) card hasSufficientBalanceForFare:(double) fare {
     double balance = [cardService getBalanceFor:card];
     if (balance < fare) {
-        return false;
+        return NO;
     }
-    return true;
+    return YES;
 }
+
+-(BOOL)
 
 @end
 
