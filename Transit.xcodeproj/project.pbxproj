@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		260CA6C2196E26B9008635FB /* Transit.h in Headers */ = {isa = PBXBuildFile; fileRef = 260CA6C1196E26B9008635FB /* Transit.h */; };
-		260CA6C4196E26B9008635FB /* Transit.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CA6C3196E26B9008635FB /* Transit.m */; };
 		260CA6CA196E26B9008635FB /* libTransit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 260CA6BE196E26B9008635FB /* libTransit.dylib */; };
+		260CA6D9196E26E2008635FB /* CardReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CA6D8196E26E2008635FB /* CardReader.m */; };
+		260CA6DC196E26F8008635FB /* CheckingIfCardHasBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CA6DB196E26F8008635FB /* CheckingIfCardHasBalance.m */; };
+		260CA6DE196E273F008635FB /* CardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 260CA6DD196E273F008635FB /* CardReader.h */; };
+		260CA6E3196E2806008635FB /* Card.h in Headers */ = {isa = PBXBuildFile; fileRef = 260CA6E1196E2806008635FB /* Card.h */; };
+		260CA6E4196E2806008635FB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CA6E2196E2806008635FB /* Card.m */; };
+		263CEDF11974A2140027D768 /* CheckingCardBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 263CEDF01974A2140027D768 /* CheckingCardBalance.m */; };
+		263CEDF61974FAF60027D768 /* CardService.h in Headers */ = {isa = PBXBuildFile; fileRef = 263CEDF41974FAF60027D768 /* CardService.h */; };
+		263CEDF71974FAF60027D768 /* CardService.m in Sources */ = {isa = PBXBuildFile; fileRef = 263CEDF51974FAF60027D768 /* CardService.m */; };
+		2648BD861975BCB2007B6280 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2648BD811975B83A007B6280 /* OCMock.framework */; };
+		2648BD881975BDC0007B6280 /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2648BD811975B83A007B6280 /* OCMock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,12 +30,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2648BD871975BDB2007B6280 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2648BD881975BDC0007B6280 /* OCMock.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		260CA6BE196E26B9008635FB /* libTransit.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTransit.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		260CA6C1196E26B9008635FB /* Transit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transit.h; sourceTree = "<group>"; };
-		260CA6C3196E26B9008635FB /* Transit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transit.m; sourceTree = "<group>"; };
 		260CA6C9196E26B9008635FB /* TransitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		260CA6CF196E26B9008635FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260CA6D8196E26E2008635FB /* CardReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardReader.m; sourceTree = "<group>"; };
+		260CA6DB196E26F8008635FB /* CheckingIfCardHasBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckingIfCardHasBalance.m; sourceTree = "<group>"; };
+		260CA6DD196E273F008635FB /* CardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardReader.h; sourceTree = "<group>"; };
+		260CA6E1196E2806008635FB /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		260CA6E2196E2806008635FB /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		263CEDF01974A2140027D768 /* CheckingCardBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckingCardBalance.m; sourceTree = "<group>"; };
+		263CEDF41974FAF60027D768 /* CardService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardService.h; sourceTree = "<group>"; };
+		263CEDF51974FAF60027D768 /* CardService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardService.m; sourceTree = "<group>"; };
+		2648BD811975B83A007B6280 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Frameworks/OCMock.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2648BD861975BCB2007B6280 /* OCMock.framework in Frameworks */,
 				260CA6CA196E26B9008635FB /* libTransit.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +81,7 @@
 		260CA6B5196E26B9008635FB = {
 			isa = PBXGroup;
 			children = (
+				2648BD811975B83A007B6280 /* OCMock.framework */,
 				260CA6C0196E26B9008635FB /* Transit */,
 				260CA6CD196E26B9008635FB /* TransitTests */,
 				260CA6BF196E26B9008635FB /* Products */,
@@ -70,8 +100,12 @@
 		260CA6C0196E26B9008635FB /* Transit */ = {
 			isa = PBXGroup;
 			children = (
-				260CA6C1196E26B9008635FB /* Transit.h */,
-				260CA6C3196E26B9008635FB /* Transit.m */,
+				260CA6D8196E26E2008635FB /* CardReader.m */,
+				260CA6DD196E273F008635FB /* CardReader.h */,
+				260CA6E1196E2806008635FB /* Card.h */,
+				260CA6E2196E2806008635FB /* Card.m */,
+				263CEDF41974FAF60027D768 /* CardService.h */,
+				263CEDF51974FAF60027D768 /* CardService.m */,
 			);
 			path = Transit;
 			sourceTree = "<group>";
@@ -79,6 +113,7 @@
 		260CA6CD196E26B9008635FB /* TransitTests */ = {
 			isa = PBXGroup;
 			children = (
+				263CEDEF19706B1C0027D768 /* CardReaderTests */,
 				260CA6CE196E26B9008635FB /* Supporting Files */,
 			);
 			path = TransitTests;
@@ -92,6 +127,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		263CEDEF19706B1C0027D768 /* CardReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				260CA6DB196E26F8008635FB /* CheckingIfCardHasBalance.m */,
+				263CEDF01974A2140027D768 /* CheckingCardBalance.m */,
+			);
+			name = CardReaderTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -99,7 +143,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260CA6C2196E26B9008635FB /* Transit.h in Headers */,
+				260CA6E3196E2806008635FB /* Card.h in Headers */,
+				263CEDF61974FAF60027D768 /* CardService.h in Headers */,
+				260CA6DE196E273F008635FB /* CardReader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +176,7 @@
 				260CA6C5196E26B9008635FB /* Sources */,
 				260CA6C6196E26B9008635FB /* Frameworks */,
 				260CA6C7196E26B9008635FB /* Resources */,
+				2648BD871975BDB2007B6280 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -191,7 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260CA6C4196E26B9008635FB /* Transit.m in Sources */,
+				260CA6D9196E26E2008635FB /* CardReader.m in Sources */,
+				263CEDF71974FAF60027D768 /* CardService.m in Sources */,
+				260CA6E4196E2806008635FB /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263CEDF11974A2140027D768 /* CheckingCardBalance.m in Sources */,
+				260CA6DC196E26F8008635FB /* CheckingIfCardHasBalance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +344,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -303,6 +358,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -314,6 +373,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -332,6 +392,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = TransitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -358,6 +419,7 @@
 				260CA6D4196E26B9008635FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		260CA6D5196E26B9008635FB /* Build configuration list for PBXNativeTarget "TransitTests" */ = {
 			isa = XCConfigurationList;
@@ -366,6 +428,7 @@
 				260CA6D7196E26B9008635FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

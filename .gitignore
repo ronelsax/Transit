@@ -1,0 +1,8 @@
+*.suo
+*.swp
+xcuserdata/
+*.xccheckout
+*.refactorlog
+*.dbmdl
+*.orig
+*.txt~
