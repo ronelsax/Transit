@@ -6,4 +6,8 @@
     return 0;
 }
 
+-(void)deductFare:(double)fare fromCard:(Card *)card {
+    
+}
+
 @end

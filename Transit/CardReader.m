@@ -15,18 +15,22 @@
 
 -(BOOL)cardHasBalance:(Card *) card {
     double balance = [cardService getBalanceFor:card];
-    if (balance == 0) {
-        return NO;
-    }
-    return YES;
+    return (balance != 0);
 }
 
--(BOOL)card:(Card*) card hasSufficientBalanceForFare:(double) fare {
+-(BOOL)card:(Card*)card hasSufficientBalanceForFare:(double) fare {
     double balance = [cardService getBalanceFor:card];
     if (balance < fare) {
         return NO;
     }
     return YES;
+}
+
+-(void)deductFare:(double)fare fromCard:(Card *)card {
+    if (![self card:card hasSufficientBalanceForFare:fare]) {
+        [NSException raise:@"InsufficientFare" format:@"Insufficient fare."];
+    }
+    [cardService deductFare:fare fromCard:card];
 }
 
 @end

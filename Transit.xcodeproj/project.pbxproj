@@ -16,6 +16,7 @@
 		263CEDF11974A2140027D768 /* CheckingCardBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 263CEDF01974A2140027D768 /* CheckingCardBalance.m */; };
 		263CEDF61974FAF60027D768 /* CardService.h in Headers */ = {isa = PBXBuildFile; fileRef = 263CEDF41974FAF60027D768 /* CardService.h */; };
 		263CEDF71974FAF60027D768 /* CardService.m in Sources */ = {isa = PBXBuildFile; fileRef = 263CEDF51974FAF60027D768 /* CardService.m */; };
+		2645CB231975D46100AD3A47 /* DeductingFareFromCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2645CB221975D46100AD3A47 /* DeductingFareFromCard.m */; };
 		2648BD861975BCB2007B6280 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2648BD811975B83A007B6280 /* OCMock.framework */; };
 		2648BD881975BDC0007B6280 /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2648BD811975B83A007B6280 /* OCMock.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		263CEDF01974A2140027D768 /* CheckingCardBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckingCardBalance.m; sourceTree = "<group>"; };
 		263CEDF41974FAF60027D768 /* CardService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardService.h; sourceTree = "<group>"; };
 		263CEDF51974FAF60027D768 /* CardService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardService.m; sourceTree = "<group>"; };
+		2645CB221975D46100AD3A47 /* DeductingFareFromCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeductingFareFromCard.m; sourceTree = "<group>"; };
 		2648BD811975B83A007B6280 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Frameworks/OCMock.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 			children = (
 				260CA6DB196E26F8008635FB /* CheckingIfCardHasBalance.m */,
 				263CEDF01974A2140027D768 /* CheckingCardBalance.m */,
+				2645CB221975D46100AD3A47 /* DeductingFareFromCard.m */,
 			);
 			name = CardReaderTests;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2645CB231975D46100AD3A47 /* DeductingFareFromCard.m in Sources */,
 				263CEDF11974A2140027D768 /* CheckingCardBalance.m in Sources */,
 				260CA6DC196E26F8008635FB /* CheckingIfCardHasBalance.m in Sources */,
 			);

@@ -11,5 +11,6 @@
 -initWithCardService:(CardService *)cardService;
 -(BOOL)cardHasBalance:(Card *) card;
 -(BOOL)card:(Card*) card hasSufficientBalanceForFare:(double) fare;
+-(void)deductFare:(double)fare fromCard:(Card *)card;
 
 @end

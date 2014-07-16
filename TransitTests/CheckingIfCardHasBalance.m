@@ -13,13 +13,16 @@
 
 - (void)testReturnsTrueIfCardHasBalance {
     
+    // Arrange
     id cardService = OCMClassMock([CardService class]);
     CardReader *cardReader = [[CardReader alloc]initWithCardService:cardService];
     Card *card = [[Card alloc]init];
     OCMStub([cardService getBalanceFor:card]).andReturn(1.0);
 
+    //Act
     BOOL result = [cardReader cardHasBalance:card];
     
+    //Assert
     XCTAssertTrue(result);
 }
 

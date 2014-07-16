@@ -3,4 +3,5 @@
 
 @interface CardService : NSObject
 -(double)getBalanceFor:(Card *) card;
+-(void)deductFare:(double)fare fromCard:(Card *)card;
 @end
